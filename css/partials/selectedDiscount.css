@@ -1,0 +1,97 @@
+div.selecteddiscount{
+    width: 78%;
+    height: 815px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+div.selecteddiscount>div.distitle{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    padding: 50px;
+}
+div.selecteddiscount>div.distitle>span{
+    font-family: yekan;
+    color: black;
+    font-size: 21px;
+}
+div.selecteddiscount>div.disproduct{
+    width: 100%;
+    height: 85%;
+    cursor: pointer;
+}
+div.selecteddiscount>div.disproduct>div.subdisproduct{
+    width: 100%;
+    height: 33%;
+    display: block;
+    border-bottom: 1px solid rgb(245, 237, 237);
+}
+div.selecteddiscount>div.disproduct>div.subdisproduct>div.disobject{
+    width: 16.7%;
+    height: 100%;
+    display: inline-block;
+    margin-right: -4px;
+    border-right: 1px solid rgb(245, 237, 237);
+    cursor: pointer;
+}
+div.selecteddiscount>div.disproduct>div.subdisproduct>div.disobject>div.image{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+div.selecteddiscount>div.disproduct>div.subdisproduct>div.disobject>div.image>img{
+    width: 60%;
+    display: inline-block;
+}
+div.selecteddiscount>div.disproduct>div.subdisproduct>div.disobject>div.price{
+    width: 100%;
+    font-family: yekan;
+    direction: ltr;
+    position: relative;
+    padding-right: 8px;
+}
+div.selecteddiscount>div.disproduct>div.subdisproduct>div.disobject>div.price>h4{
+    width: 70%;
+    display: inline-block;
+    font-size: 19px;
+    text-align: center;
+    font-family: yekan;
+    color: rgb(47, 45, 45);
+}
+div.selecteddiscount>div.disproduct>div.subdisproduct>div.disobject>div.price>h5{
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: #EF394E;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: yekan;
+}
+div.selecteddiscount>div.disproduct>div.subdisproduct>div.disobject>div.price>h4>span{
+    width: 100%;
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    font-size: 11px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    direction: rtl;
+}
+div.selecteddiscount>div.disproduct>div.subdisproduct>div.disobject>div.beforeDiscount{
+    width: 100%;
+    text-align: left;
+    color:#b4b5b6;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: line-through;
+    padding-left: 40px;
+}
+
+.disnoborder{
+    border: none !important;
+}

@@ -1,0 +1,449 @@
+footer{
+    width: 95%;
+    height: 1160px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+footer>div.top{
+    width: 100%;
+    height: 7%;
+    position: relative;
+    border-top: 1px solid rgb(233, 230, 230);
+}
+footer>div.top>div.digi{
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+}
+footer>div.top>div.digi>img{
+    width: 10%;
+    height: 70%;
+}
+footer>div.top>a>div.back{
+    width: 8%;
+    height: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 2%;
+    top: 25%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+footer>div.top>a>div.back>span{
+    font-family: yekan;
+    font-size: 13px ;
+    color: #b8b7b7;
+}
+
+
+footer>div.support{
+    width: 100%;
+    height: 5%;
+    padding: 20px;
+}
+footer>div.support>span{
+    font-family: yekan;
+    font-size: 12px;
+    color: rgb(65, 64, 64);
+}
+
+
+footer>div.icons{
+    width: 100%;
+    height: 12%;
+}
+footer>div.icons>div.object{
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    margin-right: -4px;
+}
+footer>div.icons>div.object>div.image{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    padding: 25px;
+}
+footer>div.icons>div.object>div.image>img{
+    width: 100%;
+    height: 130%;
+}
+footer>div.icons>div.object>div.text{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+footer>div.icons>div.object>div.text>span{
+    color: rgb(65, 64, 64);
+
+}
+
+
+footer>div.footermenu{
+    width: 100%;
+    height: 27%;
+    position: relative;
+}
+footer>div.footermenu>div.submenu1{
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    margin-right: -4px;
+    text-align: right;
+    padding-right: 80px;
+    padding-top: 40px;
+}
+footer>div.footermenu>div.submenu2{
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    margin-right: -4px;
+    text-align: right;
+    padding-right: 80px;
+    padding-top: 40px;
+    position: absolute;
+    top: 0;
+    left: 53%;
+}
+footer>div.footermenu>div.submenu3{
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    margin-right: -4px;
+    text-align: right;
+    padding-right: 80px;
+    padding-top: 40px;
+    position: absolute;
+    top: 0%;
+    left: 29%;
+}
+footer>div.footermenu>div.submenu1>h4{
+    font-family: yekan;
+    margin-bottom: 20px;
+}
+footer>div.footermenu>div.submenu2>h4{
+    font-family: yekan;
+    margin-bottom: 20px;
+}
+footer>div.footermenu>div.submenu3>h4{
+    font-family: yekan;
+    margin-bottom: 20px;
+}
+footer>div.footermenu>div.submenu1>a>p{
+    font-family: yekan;
+    font-size: 14px;
+    line-height: 35px;
+    color: rgb(105, 104, 104);
+}
+footer>div.footermenu>div.submenu2>a>p{
+    font-family: yekan;
+    font-size: 14px;
+    line-height: 35px;
+    color: rgb(105, 104, 104);
+}
+footer>div.footermenu>div.submenu3>a>p{
+    font-family: yekan;
+    font-size: 14px;
+    line-height: 35px;
+    color: rgb(105, 104, 104);
+}
+
+
+footer>div.footermenu>div.follow{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    margin-right: -4px;
+    margin-right: 10px;
+    position: absolute;
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-left: 20px;
+    top: 0%;
+    left: 1%;
+}
+footer>div.footermenu>div.follow>h4{
+    font-family: yekan;
+    margin-bottom: 20px;
+}
+footer>div.footermenu>div.follow>div.social{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 25px;
+}
+footer>div.footermenu>div.follow>div.social>div.subsocial{
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+footer>div.footermenu>div.follow>div.social>div.subsocial>a>img{
+    width: 35%;
+    height: 70%;
+}
+footer>div.footermenu>div.follow>form>input[type=email]{
+    width: 250px;
+    height: 45px;
+    background-color:rgb(231, 228, 228);
+    border: unset;
+    outline: unset;
+    border-radius: 10px;
+    padding-right: 20px;
+    font-family: Yekan;
+    font-size: 13px;
+    color: grey;
+    transition: 300ms;
+}
+footer>div.footermenu>div.follow>form>input[type=submit]{
+    width: 55px;
+    height: 45px;
+    font-family: Yekan;
+    font-size: 13px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color:rgba(165, 162, 162, 0.541);
+    margin-right: 10px;
+}
+
+footer>div.download{
+    width:95%;
+    height: 8%;
+    border-radius: 10px;
+    background-color: #3C4B6D;
+    margin: 0px auto;
+    position: relative;
+}
+footer>div.download>div.right{
+    width: 65%;
+    height: 100%;
+    display: inline-block;
+    padding: 20px;
+    position: absolute;
+}
+footer>div.download>div.right>img{
+    width: 5%;
+    height: 100%;
+}
+footer>div.download>div.right>div.text{
+    width: 30%;
+    height: 5%;
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+    position: absolute;
+    right: 9%;
+}
+footer>div.download>div.right>div.text>span{
+    font-family: yekan;
+    color: white;
+    font-size: 21px;
+}
+footer>div.download>div.left{
+    width: 31%;
+    height: 100%;
+    display: inline-block;
+    margin-right: 45px;
+    position: relative;
+    right: 65%;
+}
+footer>div.download>div.left>div.imagedown1{
+    width: 30%;
+    height: 60%;
+    display: inline-block;
+    right: 0%;
+    top: 19%;
+}
+footer>div.download>div.left>div.imagedown1>img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+footer>div.download>div.left>div.imagedown2{
+    width: 30%;
+    height: 70%;
+    display: inline-block;
+    right: 30%;
+    top: 15%;
+}
+footer>div.download>div.left>div.imagedown2>img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+footer>div.download>div.left>div.imagedown3{
+    width: 30%;
+    height: 70%;
+    display: inline-block;
+    right: 60%;
+    top: 15%;
+}
+footer>div.download>div.left>div.imagedown3>img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+footer>div.download>div.left>div.imagedown4{
+    width: 9%;
+    height: 47%;
+    background-color: white;
+    display: inline-block;
+    right: 92%;
+    top: 27%;
+    border-radius: 5px;
+}
+footer>div.download>div.left>div.imagedown4>img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+footer>div.store{
+    width: 100%;
+    height: 19%;
+    position: relative;
+    border-top: 1px solid rgb(243, 240, 240);
+    border-bottom: 1px solid rgb(243, 240, 240);
+    margin-top: 20px;
+}
+footer>div.store>div.right{
+    width: 72%;
+    height: 100%;
+    padding-right: 50px;
+    padding-top: 25px;
+    margin-top: 10px;
+    display: inline-block;
+    position: absolute;
+    top: -5%;
+}
+footer>div.store>div.right>h4{
+    font-family: yekan;
+    font-size: 19px;
+    color: black;
+    margin-bottom: 20px;
+}
+footer>div.store>div.right>p{
+    font-family: yekan;
+    font-size: 13px;
+    color: rgb(153, 151, 151);
+    line-height: 25px;
+}
+footer>div.store>div.right>p.hide{
+    opacity: 32%;
+}
+footer>div.store>div.right>a>p{
+    font-family: yekan;
+    font-size: 13px;
+    color: #72C3D3;
+    line-height: 55px;
+}
+footer>div.store>div.left{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    right: 73%;
+}
+footer>div.store>div.left>div.namads1{
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    right: 5%;
+    top: 25% ;
+    border-radius: 10px;
+    border: 1px solid rgb(224, 221, 221);
+    text-align: center;
+}
+footer>div.store>div.left>div.namads1>img{
+    width: 70%;
+    height: 90%;
+}
+footer>div.store>div.left>div.namads2{
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    right: 37%;
+    top: 25% ;
+    border-radius: 10px;
+    border: 1px solid rgb(224, 221, 221);
+    text-align: center;
+}
+footer>div.store>div.left>div.namads2>img{
+    width: 60%;
+    height: 90%;
+}
+footer>div.store>div.left>div.namads3{
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    right: 70%;
+    top: 25% ;
+    border-radius: 10px;
+    border: 1px solid rgb(224, 221, 221);
+}
+footer>div.store>div.left>div.namads3>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+footer>div.licence{
+    width: 100%;
+    height: 7%;
+    text-align: center;
+    padding-top: 25px;
+}
+footer>div.licence>span{
+    font-family: yekan;
+    font-size: 12px;
+    color: rgb(163, 161, 161);
+}
+
+footer>div.brand{
+    width: 100%;
+    height: 15%;
+    background-color: #F0F0F1;
+    cursor: pointer;
+}
+footer>div.brand>div.top{
+    width: 100%;
+    height: 50%;
+    border-bottom:1px solid lightgray ;
+}
+footer>div.brand>div.top>div.imgbrand{
+    width: 12%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
+    border-left: 1px solid lightgray;
+}
+footer>div.brand>div.top>div.imgbrand>img{
+    width: 55%;
+    height: 100%;
+}
+footer>div.brand>div.bottom{
+    width: 100%;
+    height: 50%;
+}
+footer>div.brand>div.bottom>div.imgbrand{
+    width: 14%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 1px;
+    text-align: center;
+    border-left: 1px solid lightgray;
+}
+footer>div.brand>div.bottom>div.imgbrand>img{
+    width: 55%;
+    height: 100%;
+}
+.nobrandborder{
+    border: none !important;
+}

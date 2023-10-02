@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+            hover focus active visited link peseudo class 
+            peseudo element 
+
+        */
+        div.form{
+            width: 70%;
+            padding: 40px;
+            box-sizing: border-box;
+            margin: 50px auto;
+            background-image: linear-gradient(45deg,rgba(0,0,0,0.2),rgba(125, 16, 197, 0.9));
+            color: whitesmoke;
+        }
+        form{
+            width: 100%;
+            padding: 50px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        label{
+            display: inline-block;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+        }
+        input[type=text],input[type=password],textarea{
+            width: 50%;
+            display: block;
+            height: 40px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            border: unset;
+            padding-left: 10px;
+            box-sizing: border-box;
+            outline: unset;
+            transition: 300ms;
+        }
+        textarea{
+            height: 150px;
+            resize: none;
+        }
+        input[type=text]:focus,input[type=password]:focus,textarea:focus{
+            width: 100%;
+            background-color: #4b4b4b;
+            color: whitesmoke;
+            font-size: 12px;
+        }
+        input[type=submit]{
+            all: unset;
+            display: block;
+            width: 30%;
+            margin: 0 auto;
+            background-color: green;
+            line-height: 40px;
+            color: whitesmoke;
+            font-size: 12px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: capitalize;
+            transition: 300ms;
+        }
+        input[type=submit]:hover{
+            background-color: deeppink;
+        }
+        input[type=text]::placeholder,input[type=password]::placeholder,textarea::placeholder{
+            color: limegreen;
+            text-align: center;
+            opacity: 0.5;
+        }
+        input[type=text]:focus::placeholder,input[type=password]:focus::placeholder,textarea:focus::placeholder{
+            color: whitesmoke;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+        <div class="form">
+                <form action="#" method="post">
+                    <label for="username">username</label>
+                    <input type="text" name="username" placeholder="username...!"  id="username">
+                    <label for="password">password</label>
+                    <input type="password" name="password" placeholder="password...!"  id="password">
+                    <label for="comment">comment</label>
+                    <textarea name="comment" id="comment" placeholder="comment"></textarea>
+                    <input type="submit" value="register">
+                </form>
+        </div> 
+</body>
+</html>

@@ -1,0 +1,107 @@
+header{
+    width:100%;
+    height: 170px;
+    background-color: #FFFFFF;
+    box-shadow:0 1px 2px rgb(184, 180, 180);
+    z-index: 999999;
+    position: sticky;
+}
+header>div.top{
+    width:inherit;/* inherit  */
+    height: 60px;
+}
+header>div.top>img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+header>div.bottom{
+    width: inherit;
+    height: calc(var(--header) - 60px);
+}
+header>div.bottom>div.bottomTop{
+    width: inherit;
+    height: calc(var(--header) - 100px );
+}
+header>div.bottom>div.bottomTop>div.logo{
+    width: 10%;
+    height: inherit;
+    display: inline-block;
+    margin-right: -3px;
+    vertical-align: top;
+    text-align: center;
+}
+header>div.bottom>div.bottomTop>div.logo>svg{
+    margin-top: 20px;
+}
+
+header>div.bottom>div.bottomTop>div.search{
+    width: 70%;
+    height: inherit;
+    display: inline-block;
+    margin-right: -3px;
+    vertical-align: top;
+    padding-right: 30px;
+}
+header>div.bottom>div.bottomTop>div.search>input[type=text]{
+    width: 600px;
+    height: 40px;
+    margin-top: 15px;
+    background-color:#F1F2F4;
+    border: unset;
+    outline: unset;
+    border-radius: 10px;
+    padding-right: 20px;
+    font-family: Yekan;
+    font-size: 13px;
+    color: grey;
+    transition: 300ms;
+}
+header>div.bottom>div.bottomTop>div.search>input[type=text]::placeholder{
+    font-size: 12px;
+    color: #ababab;
+}
+header>div.bottom>div.bottomTop>div.search>input[type=text]:focus{
+    color: whitesmoke;
+    width: 800px;
+    box-shadow: 5px 5px 25px lightgrey;
+}
+header>div.bottom>div.bottomTop>div.login{
+    width: 15%;
+    height: inherit;
+    display: inline-block;
+    margin-right: -3px;
+    vertical-align: top;
+}
+header>div.bottom>div.bottomTop>div.login>a{
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Yekan;
+    line-height: 40px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #2b2b2b;
+    margin-top: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+header>div.bottom>div.bottomTop>div.login>a>svg{
+    vertical-align: middle;
+    margin: 0 5px;
+}
+header>div.bottom>div.bottomBottom{
+    width: 100%;
+    height: 40px;
+}
+header>div.bottom>div.bottomTop>div.login>div.cart{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 10px;
+    vertical-align: middle;
+    margin-right: 10px;
+}

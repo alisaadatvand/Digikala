@@ -1,0 +1,103 @@
+div.supermarketAmzing{
+    width: 88%;
+    height: 110px;
+    background-color: #EDEFED;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+div.supermarketAmzing>div.right{
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+div.supermarketAmzing>div.right>a>div.image{
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+div.supermarketAmzing>div.right>a>div.image>img{
+    width: 67%;
+    height: auto;
+    margin: 20px;
+    display: inline-block;
+}
+div.supermarketAmzing>div.right>a>div.text{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    margin-right: -4px;
+    text-align: center;
+}
+div.supermarketAmzing>div.right>a>div.text>img{
+    width: 90%;
+    height: 100%;
+    margin-bottom: 15px;
+}
+div.supermarketAmzing>div.right>a>div.discount{
+    width: 20%;
+    height: 31px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 0px;
+    position: absolute;
+    margin-top: 40px;
+    border-radius: 25px;
+    background-color: #39AE00;
+    padding: 5px;
+}
+div.supermarketAmzing>div.right>a>div.discount>span{
+    color: white;
+    font-family: yekan;
+    font-size: 13px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+div.supermarketAmzing>div.left{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+}
+div.left>div{
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box ;
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    text-align: left;
+}
+div.left>div>a>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline-offset: 3px;
+    margin-left: 10px;
+} 
+div.supermarketAmzing>div.left>div.more{
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    right: 80%;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+div.supermarketAmzing>div.left>div.more>a>span{
+    color: #39AE00;
+    font-family: yekan;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 25px;
+}
+
+/* 
+  
+
+*/

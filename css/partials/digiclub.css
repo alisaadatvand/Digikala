@@ -1,0 +1,80 @@
+div.digiclub{
+    width: 78%;
+    height: 90px;
+    margin: 15px auto;
+    background-color: #2394B6 ;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+div.digiclub>div.right{
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+}
+div.digiclub>div.right>img{
+    width: 25%;
+    height: 100%;
+    margin-right: 40px;
+}
+div.digiclub>div.left{
+    width: 65%;
+    height: 100%;
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    padding: 10px;
+}
+div.digiclub>div.left>div.object1{
+    width: 31%;
+    height: 80%;
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    right: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.digiclub>div.left>div.object2{
+    width: 31%;
+    height: 80%;
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    right: 345px;
+}
+div.digiclub>div.left>div.object3{
+    width: 31%;
+    height: 80%;
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    left: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.digiclubtext{
+    width: 40%;
+    height: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    position: absolute;
+    margin-top: 15px;
+    left: 160px;
+}
+.digiclubtext>p{
+    font-family: yekan;
+    font-size: 13px;
+    margin-top: 10px;
+    color: black;
+}
+.digiclubimg{
+    width: 55%;
+    height: 100%;
+    display: inline-block;
+}
+.digiclubimg>img{
+    width: 100%;
+    height: 100%;
+}

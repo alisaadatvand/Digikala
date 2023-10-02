@@ -1,0 +1,42 @@
+div.imagePackage{
+    width:88%;
+    margin: 0px auto;
+    height: 260px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px ;
+}
+div.imagePackage>a>img{
+    display: inline-block;
+    width: 23%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: red;
+    margin-left: 15px;
+}
+/* image pachage 2 */
+div.imagePackage2{
+    width: 83%;
+    height: 270px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 50px auto ;
+}
+div.imagePackage2>a>img{
+    display: inline-block;
+    width: 45%;
+    height: 270px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+div.imagePackage4{
+    width: 78%;
+    height: 180px;
+    margin: 25px auto;
+}
+div.imagePackage4>a>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}

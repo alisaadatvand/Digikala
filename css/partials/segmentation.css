@@ -1,0 +1,68 @@
+div.segmentation{
+    width: 88%;
+    height: 450px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 15px auto;
+}
+div.segmentation>div.tit{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    padding-top: 10px;
+}
+div.segmentation>div.tit>p{
+    width: 100%;
+    height: 100%;
+    color: black;
+    margin-top: 20px;
+    font-family: yekan;
+    font-size: 20px;
+}
+div.segmentation>div.story{
+    width: 100%;
+    height: 80% ;
+    box-shadow: none;
+}
+div.segmentation>div.story>div.top{
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+}
+div.segmentation>div.story>div.top>div{
+    width: 150px;
+    box-sizing: border-box ;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 45px;
+    padding: 10px;
+}
+div.segmentation>div.story>div.top>div>a>img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+  h5{
+      color: black;
+      font-family: yekan;
+      font-size: 12px;
+      text-decoration: none;
+  }
+div.segmentation>div.story>div.bottom{
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+}
+div.segmentation>div.story>div.bottom>div{
+    width: 150px;
+    box-sizing: border-box ;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 45px;
+    padding: 10px;
+}
+div.segmentation>div.story>div.bottom>div>a>img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}

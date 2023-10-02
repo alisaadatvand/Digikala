@@ -1,0 +1,129 @@
+div.digiplus{
+    width: 78%;
+    height: 390px;
+    margin: 0px auto;
+    background-color: #941B80;
+    border-radius: 20px;
+    position: relative;
+    padding: 15px;
+}
+div.digiplus>div.right{
+    width: 30% ;
+    height: 94%;
+    position: absolute;
+    right: 1%;
+}
+div.digiplus>div.right>div.tit{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+}
+div.digiplus>div.right>div.tit>div{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-right: -10px;
+}
+div.digiplus>div.right>div.tit>div>span{
+    color: white;
+    font-family: yekan;
+    font-size: 15px;
+}
+div.digiplus>div.right>div.tit>div>a{
+    text-decoration: none;
+    color: white;
+    font-family: yekan;
+}
+div.digiplus>div.right>div.tit>div>a>div{
+    width: 30%;
+    height: 40%;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    font-family: yekan;
+    text-align: center;
+    padding-top: 4px;
+}
+div.digiplus>div.right>div.img{
+    width: 100%;
+    height: 60%;
+    text-align: left;
+}
+div.digiplus>div.right>div.img>img{
+    width: 80%;
+    height: 100%;
+}
+
+/* left */
+
+div.digiplus>div.left{
+    width: 67%;
+    height: 94%;
+    background-color: white;
+    position: absolute;
+    left: 1%;
+    border-radius: 20px;
+}
+div.digiplus>div.left>div.top{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    text-align: right;
+}
+div.digiplus>div.left>div.top>div.right{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 39%;
+    position: absolute;
+    right: 10px;
+    margin-top: -5px;
+    padding: 20px;
+}
+div.digiplus>div.left>div.top>div.right>p{
+    color: black;
+    font-family: yekan;
+    font-size: 17px;
+    font-weight: bold;
+}
+div.digiplus>div.left>div.top>div.left{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    margin-top: -5px;
+    text-align: left;
+    padding: 20px;
+}
+div.digiplus>div.left>div.top>div.left>a{
+    color: #941B80;
+    font-family: yekan;
+    font-size: 13px;
+    text-decoration: none;
+}
+div.digiplus>div.left>div.bottom{
+    width: 100%;
+    height: 80%;
+    position: sticky;
+}
+div.digiplus>div.left>div.bottom>div.packimage1{
+    width: 100%;
+    height: 50%;
+}
+div.digiplus>div.left>div.bottom>div.packimage2{
+    width: 100%;
+    height: 50%;
+}
+div.imagedigiplus{
+    width: 16%;
+    height: 100%;
+    display: inline-block;
+}
+div.imagedigiplus>img{
+    width: 95%;
+    height: 90%;
+    cursor: pointer;
+}
