@@ -1,0 +1,17 @@
+div.supp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: fixed;
+    z-index: 999999999;
+    top: 93%;
+    right: 95%;
+    text-align: center;
+    padding-top: 13px;
+    padding-right: 2px;
+    cursor: pointer;
+}
+div.supp>i{
+    font-size: 25px;
+}
