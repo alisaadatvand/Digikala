@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html , body{
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+}
 @font-face{
     font-family: Yekan;
     src: url('../../fonts/IRANYekanWeb.eot');
